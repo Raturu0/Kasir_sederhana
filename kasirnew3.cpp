@@ -35,6 +35,7 @@ void puas_tidakpuas() {
     cout << "5. Sangat tidak puas " << endl;
     cout << "Silahkan pilih nomor 1-5 berdasarkan perasaan Anda : ";
 }
+
 int main () {
     string beli1, beli2;
     string ans;
@@ -680,13 +681,14 @@ int main () {
                 if(puas == "1") {
                     puas = "Sangat puas";
                 } else if(puas == "2"){
-                    puas == "Puas";
+                    puas = "Puas";
                 } else if(puas == "3"){
-                    puas == "Biasa saja";
+                    puas = "Biasa saja";
                 } else if(puas == "4"){
-                    puas == "Tidak puas";
+                    puas = "Tidak puas";
                 } else if(puas == "5"){
-                    puas == "Sangat tidak puas";
+                    puas 
+                    = "Sangat tidak puas";
                 }
             cout << "Nama                       = ";
             cin.ignore();
